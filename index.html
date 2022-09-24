@@ -8,10 +8,12 @@
   <link rel="dns-prefetch" href="http://example.com">
   <title>Wang Weiqi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="一个小学生">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Wang Weiqi">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="Wang Weiqi">
+<meta property="og:description" content="一个小学生">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Wang Weiqi">
 <meta name="twitter:card" content="summary">
@@ -25,7 +27,7 @@
   <style type="text/css">
   
     #container.show {
-      background: linear-gradient(200deg,#a0cfe4,#e8c37e);
+      background: linear-gradient(200deg,#4d4d4d,#f5f5f5);
     }
   </style>
   
@@ -77,11 +79,13 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com/wangwq22" title="github"><i class="icon-github"></i></a>
 		        
-					<a class="mail" target="_blank" href="/wangwq22@mails.tsinghua.edu.cn" title="mail"><i class="icon-mail"></i></a>
+					<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu"><i class="icon-zhihu"></i></a>
 		        
-					<a class="bilibili" target="_blank" href="https://space.bilibili.com/198764903" title="bilibili"><i class="icon-bilibili"></i></a>
+					<a class="jianshu" target="_blank" href="https://www.jianshu.com/" title="jianshu"><i class="icon-jianshu"></i></a>
+		        
+					<a class="bilibili" target="_blank" href="https://www.bilibili.com" title="bilibili"><i class="icon-bilibili"></i></a>
 		        
 			</div>
 		</nav>
@@ -116,11 +120,13 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com/wangwq22" title="github"><i class="icon-github"></i></a>
 			        
-						<a class="mail" target="_blank" href="/wangwq22@mails.tsinghua.edu.cn" title="mail"><i class="icon-mail"></i></a>
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
-						<a class="bilibili" target="_blank" href="https://space.bilibili.com/198764903" title="bilibili"><i class="icon-bilibili"></i></a>
+						<a class="jianshu" target="_blank" href="https://www.jianshu.com/" title="jianshu"><i class="icon-jianshu"></i></a>
+			        
+						<a class="bilibili" target="_blank" href="https://www.bilibili.com" title="bilibili"><i class="icon-bilibili"></i></a>
 			        
 				</div>
 			</nav>
@@ -168,34 +174,34 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="Start-a-Blog-with-Hexo"><a href="#Start-a-Blog-with-Hexo" class="headerlink" title="Start a Blog with Hexo"></a>Start a Blog with Hexo</h3><blockquote>
+        <h3 id="这是用于建立本博客的代码"><a href="#这是用于建立本博客的代码" class="headerlink" title="这是用于建立本博客的代码"></a>这是用于建立本博客的代码</h3><blockquote>
 <p> Hexo is a fast, simple &amp; powerful blog framework</p>
 </blockquote>
 <p>All the codes below run in git bash</p>
-<p> <code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
-<p><code>cnpm</code></p>
+<p> <code>npm install -g cnpm --registry=https://registry.npm.taobao.org #使用淘宝镜像下载</code></p>
+<p><code>cnpm</code> </p>
 <p><code>hexo -v</code></p>
-<p><code>mikdr C:/AT/Course/Bioinfo-LZ/Page</code></p>
-<p><code>hexo init</code></p>
+<p><code>mikdr C:/AT/Course/Bioinfo-LZ/Page #建立一个空文件夹，务必为空</code></p>
+<p><code>hexo init #在本文件夹建立hexo</code></p>
 <p><code>ls</code></p>
 <p><code>hexo s</code></p>
-<p><code>hexo server -p 4010</code></p>
-<p><code>hexo n &quot;my post&quot;</code></p>
+<p><code>hexo server -p 4010 #如果默认的4000网站打不开，可以在此处重新设置</code></p>
+<p><code>hexo n &quot;my post&quot; #新建文章</code></p>
 <p><code>cd source/_posts/</code></p>
 <p><code>ls</code></p>
-<p><code>vim my-post.md</code></p>
+<p><code>vim my-post.md #使用md语法写博文即可</code></p>
 <p><code>cd ../..</code></p>
-<p><code>hexo clean</code></p>
-<p><code>hexo g</code></p>
+<p><code>hexo clean </code></p>
+<p><code>hexo g #生成</code> </p>
 <p><code>hexo server -p 4010</code></p>
-<p><code>cnpm install --save hexo-deployer-git</code></p>
-<p><code>vim _config.yml</code></p>
-<p><code>hexo d</code></p>
-<p><code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</code></p>
+<p><code>cnpm install --save hexo-deployer-git #以下为链接到gitpage的方法</code></p>
+<p><code>vim _config.yml #设置deploy: type: &#39;git&#39; repo: &#39;GitHub库地址&#39; branch: &#39;main&#39;</code></p>
+<p><code>hexo d #推送到远端</code></p>
+<p><code>git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia #以下为更换主题的方法</code></p>
 <p><code>cd themes</code></p>
 <p><code>cd C:/AT/Course/Bioinfo-LZ/Page</code></p>
-<p><code>vim _config.yml</code></p>
-<p><code>hexo clean</code></p>
+<p><code>vim _config.yml #更改theme</code></p>
+<p><code>hexo clean #以下四步每次更新设置或推送时均需重复</code></p>
 <p><code>hexo g</code></p>
 <p><code>hexo server -p 4010</code></p>
 <p><code>hexo d</code></p>
@@ -473,13 +479,45 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-friends" q-show="friends">
   		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="/%E6%9A%82" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>0</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E6%97%B6" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>1</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E8%BF%98" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>2</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E6%B2%A1" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>3</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E6%9C%89" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>4</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E8%AE%BE" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>5</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="/%E5%91%A2" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>6</a>
+            </li>
+          
+        </ul>
+  		
     	</section>
     
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">我用什么才能留住你</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">一个小学生</div>
   	  	
     	</section>
     
